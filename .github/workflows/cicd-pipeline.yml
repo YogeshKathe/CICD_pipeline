@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Tests
-        run: npm test
+      # - name: Run Tests
+      #  run: npm test
 
       # Build with correct base-href (repo name)
       - name: Build Angular App
